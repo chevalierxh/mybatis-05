@@ -7,7 +7,7 @@
     <properties resource="jdbc.properties"/>
     <!--别名-->
     <typeAliases>
-        <package name="pojo"/>
+        <package name="com.xh.pojo"/>
     </typeAliases>
     <!--数据库环境-->
     <environments default="development">

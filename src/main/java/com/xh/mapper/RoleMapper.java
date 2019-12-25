@@ -11,4 +11,5 @@ public interface RoleMapper {
     public int updateRole(Role role);
     public Role getRole(Long id);
     public List<Role> findRoles(String roleName);
+    public int countRoleByFirstName(String roleName);
 }
